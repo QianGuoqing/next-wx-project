@@ -1,0 +1,7 @@
+<wxs src="./format.wxs" module="format"></wxs>
+<template name="comicItemTempate">
+  <view class="container">
+    <image class="comic-image" src="{{ src }}"></image>
+    <text class="comic-text" wx:if="{{ aside }}">{{ format.format(text) }}</text>
+  </view>
+</template>

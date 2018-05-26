@@ -1,0 +1,7 @@
+<import src="../../template/comic-item/comic-item.wxml"/>
+
+<block wx:for="{{ images }}" wx:key="{{ item.unique }}">
+  <view catchtap="showText" data-index="{{ index }}">
+    <template is="comicItemTempate" data="{{ ...item }}"></template>
+  </view>
+</block>

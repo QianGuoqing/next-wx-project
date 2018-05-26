@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.comic-image {
+  margin: 10rpx auto;
+}
+
+.comic-text {
+  position: absolute;
+  width: 150rpx;
+  right: 20rpx;
+}
